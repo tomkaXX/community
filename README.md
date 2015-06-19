@@ -4,11 +4,7 @@ A sample Telescope project. Install [Meteor](http://meteor.com), clone this repo
 meteor
 ```
 
-You can optionally customize your app through custom packages. To enable the custom package template provided, just type:
-
-```
-meteor add my-custom-package
-```
+This repo includes a few basic customizations on the `custom` branch.
 
 ### One-Click Deploy
 
