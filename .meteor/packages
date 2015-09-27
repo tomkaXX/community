@@ -27,7 +27,7 @@ telescope:rss
 telescope:scoring
 telescope:search
 telescope:share
-telescope:singleday
+telescope:spiderable
 telescope:subscribe-to-posts
 telescope:tagline-banner
 telescope:tags
@@ -38,3 +38,4 @@ telescope:update-prompt
 ############ Your Custom Packages ############
 
 # custom
+standard-minifiers
