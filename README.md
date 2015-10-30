@@ -4,8 +4,6 @@ A sample Telescope project. Install [Meteor](http://meteor.com), clone this repo
 meteor
 ```
 
-This repo includes a few basic customizations on the `custom` branch.
-
 ### One-Click Deploy
 
 Deploy on Heroku:
