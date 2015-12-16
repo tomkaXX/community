@@ -1,0 +1,8 @@
+{
+  "name": "Telescope",
+  "description": "An open-source community app built with Meteor",
+  "repository": "https://github.com/TelescopeJS/sample-project/",
+  "logo": "http://www.telescopeapp.org/images/logo.png",
+  "website": "http://www.telescopeapp.org/",
+  "addons": ["scalingo-mongodb"]
+}
