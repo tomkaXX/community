@@ -60,7 +60,19 @@ You can come back and change them at any time, but note that any category you re
 
 Note that `settings.json` will be gitignored by default. 
 
-### One-Click Deploy
+### Why Is This Repo Empty?
+
+You might notice that it appears that this repo doesn't contain any code. 
+
+This is because the entirety of Nova's codebase is contained in the set of Meteor packages included in `.meteor/packages`. 
+
+If you'd like to customize Nova's codebase, please refer to the main [Nova Readme](https://github.com/TelescopeJS/Telescope/tree/nova).
+
+### Deploying
+
+We recommend using [Meteor Up X (MupX)](https://github.com/arunoda/meteor-up/tree/mupx) to deploy to a [Digital Ocean](http://digitalocean.com) server, along with [Compose](http://compose.io) to host your database. 
+
+Another good alternative is [Galaxy](http://galaxy.meteor.com/), Meteor's official hosting service.
 
 Deploy on Heroku:
 
