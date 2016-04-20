@@ -35,3 +35,8 @@ accounts-twitter
 ############ Debug Packages ############
 
 nova:debug
+
+############ Your Packages ############
+
+# uncomment to activate example custom package
+# my-custom-package
