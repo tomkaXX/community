@@ -87,3 +87,7 @@ Deploy on Scalingo:
 ### Updating
 
 You can update your app by running `meteor update`. If this upgrades Meteor to a non-compatible version, simply go back to the previous version in `.meteor/release`. 
+
+### Example Custom Package
+
+This repo also includes an example of how to customize Nova using a custom package. To enable the custom package, simply uncomment the line `# my-custom-package` in `.meteor/packages` (remove the `#`). 
