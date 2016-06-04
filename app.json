@@ -1,13 +1,13 @@
 {
   "name": «TOLOKA»,
-  "description": "An open-source community app built with React & Meteor",
-  "repository": "https://github.com/TelescopeJS/sample-project/",
+  "description": "An open-source volunteer community app built with React & Meteor",
+  "repository": "https://github.com/tomkaX/community.git",
   "logo": "http://www.telescopeapp.org/images/logo.png",
   "keywords": ["meteor", "social", "community"],
   "env": {
     "BUILDPACK_URL": "https://github.com/AdmitHub/meteor-buildpack-horse.git",
     "ROOT_URL": {
-      "description": "The full URL of your Nova app (by default, http://appname.herokuapp.com)."
+      "description": "The full URL of your app (by default, http://appname.herokuapp.com)."
     }
   },
   "addons": [

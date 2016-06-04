@@ -41,3 +41,6 @@ nova:debug
 
 # uncomment to activate example custom package
 # my-custom-package
+accounts-facebook
+accounts-google
+service-configuration
