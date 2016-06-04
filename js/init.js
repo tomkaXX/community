@@ -15,7 +15,6 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $('.slider').slider({full_width: true});
-  $('.parallax').parallax();
 });
 
 // Pause slider
