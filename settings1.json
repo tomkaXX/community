@@ -1,0 +1,60 @@
+{
+  "public": {
+    "title": «Toloka»,
+    "tagline»:»Volunteers community»,
+    
+    "logoUrl": "/foo.png",
+    "logoHeight": "80",
+    "logoWidth": "250",
+    "faviconUrl": "/favicon.ico",
+
+    "requirePostsApproval":false,
+    "requireViewInvite":false,
+    "requirePostInvite":false,
+    "enableNewsletter":true,
+    "autoSubscribe":false,
+    "emailNotifications":true,
+    "postInterval": 20,
+    "RSSLinksPointTo": "link",
+    "commentInterval": 20,
+    "maxPostsPerDay": 10,
+    "startInvitesCount": 5,
+    "postsPerPage": 10,
+    
+    "language": "en",
+
+    "twitterAccount": "TolokaImpact",
+    "facebookPage": "https://www.facebook.com/GDG-Kyiv-Center-557822581039379/",
+
+    "googleAnalyticsId":"123foo"
+  },
+
+  "defaultEmail": «toloka.impact@gmail.com»,
+  "mailUrl": "smtp.gmail.com:toloka.impact@smtp.gmail.com:465/",
+  "scoreUpdateInterval": "30",
+  "embedlyKey":"123foo",
+  "mailChimpAPIKey": "123foo",
+  "mailChimpListId": "123foo",
+
+  "categories": [
+    {
+      "name": "Test Category 1",
+      "description": "The first test category",
+      "order": 4,
+      "slug": "testcat1"
+    },
+    {
+      "name": "Test Category 2",
+      "description": "The second test category",
+      "order": 7,
+      "slug": "testcat2"
+    },
+    {
+      "name": "Test Category 3",
+      "description": "The third test category",
+      "order": 10,
+      "slug": "testcat3"
+    }
+  ]
+
+}
