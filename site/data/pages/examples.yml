@@ -1,0 +1,112 @@
+sections:
+  - title: Line chart examples
+    level: 3
+    items:
+      - type: live-example
+        data:
+          title: Simple line chart
+          level: 4
+          id: simple-line-chart
+          classes: ct-golden-section
+          intro: An example of a simple line chart with three series. You can edit this example in realtime.
+      - type: live-example
+        data:
+          title: Holes in data
+          level: 4
+          id: example-line-data-holes
+          classes: ct-golden-section
+          intro: >
+                   Chartist does not freak out if you have holes in your data. Instead it will render the lines in
+                   segments and handles these holes gracefully. This also allows you to introduce a line at a later
+                   point or to terminate the series before others.
+      - type: live-example
+        data:
+          title: Filled holes in data
+          level: 4
+          id: example-line-data-fill-holes
+          classes: ct-golden-section
+          intro: >
+                   Sometimes you don't want your data looking so fragmented, even when it really is.  That's why you
+                   can also configure Chartist to smooth over holes in your data.
+      - type: live-example
+        data:
+          title: Only whole numbers
+          level: 4
+          id: example-line-only-integer
+          classes: ct-golden-section
+          intro: >
+                   You're dealing with series that contain only whole numbers? It looks weird that Chartist is creating
+                   a scale that contains fractions even if your data does not? No problem! Tell the Chartist guy to
+                   only use integers and he'll do the math!
+      - type: live-example
+        data:
+          title: Line scatter diagram with responsive settings
+          level: 4
+          id: line-scatter-random
+          classes: ct-golden-section
+          intro: >
+                   This advanced example uses a line chart to draw a scatter diagram. The data object is created
+                   with a functional style random mechanism. There is a mobile first responsive configuration using
+                   the responsive options to show less labels on small screens.
+      - type: live-example
+        data:
+          title: Line chart with area
+          level: 4
+          id: example-line-area
+          classes: ct-golden-section
+          intro: >
+                   This chart uses the showArea option to draw line, dots but also an area shape. Use the low option to
+                   specify a fixed lower bound that will make the area expand. You can also use the areaBase property
+                   to specify a data value that will be used to determine the area shape base position (this is 0 by default).
+
+      - type: live-example
+        data:
+          title: Using events to replace graphics
+          level: 4
+          id: example-line-modify-drawing
+          classes: ct-golden-section
+          intro: >
+                   Chartist has fixed graphical representations that are chosen because of their flexibility and to
+                   provide a high level of separation of the concerns. However, sometimes you probably would like to use
+                   different shapes or even images for your charts. One way to achieve this is by using the draw events and replace
+                   or add custom SVG shapes.
+      - type: live-example
+        data:
+          title: Advanced SMIL Animations
+          level: 4
+          id: example-line-svg-animation
+          classes: ct-golden-section
+          intro: >
+                   Chartist provides a simple API to animate the elements on the Chart using SMIL. Usually you can achieve most
+                   animation with CSS3 animations but in some cases you'd like to animate SVG properties that are not available
+                   in CSS.
+
+      - type: live-example
+        data:
+          title: Stacked bar chart
+          level: 4
+          id: stacked-bar
+          classes: ct-golden-section
+          intro: >
+                    You can also set your bar chart to stack the series bars on top of each other easily by using the
+                    <code>stackBars</code> property in your configuration.
+      - type: live-example
+        data:
+          title: Horizontal bar chart
+          level: 4
+          id: example-bar-horizontal
+          classes: ct-golden-section
+          intro: >
+                    Guess what! Creating horizontal bar charts is as simple as it can get. There's no new chart type
+                    you need to learn, just passing an additional option is enough.
+  
+
+      - type: live-example
+        data:
+          title: Animating a Donut with Svg.animate
+          level: 4
+          id: example-donut-animation
+          classes: ct-golden-section
+          intro: >
+                    Although it'd be also possible to achieve this animation with CSS, with some minor suboptimal
+                    things, here's an example of how to animate donut charts using Chartist.Svg.animate and SMIL.
