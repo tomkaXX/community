@@ -44,3 +44,4 @@ nova:debug
 accounts-facebook
 accounts-google
 service-configuration
+lepozepo:cloudinary
